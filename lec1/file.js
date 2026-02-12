@@ -21,8 +21,8 @@ const fs= require("fs");
 
 
 //importing File System Module
-const fs = require("fs");
-console.log("first")
+// const fs = require("fs");
+// console.log("first")
 
 // const read = (err, data)=>{
 //     if(err){
@@ -47,16 +47,27 @@ console.log("first")
 
 // console.log("2");
 
-// Non-Blocking Operation
+// Non-Blocking Operation 
+
+
 // console.log("1");
 // fs.readFile("./unknown.txt", "utf8", (err, result) => {
-//     console.log(result);
+//     if(err){
+//      console.log(result);
+//     }
+//     else{
+//         console.log(result);
+//     }
+
 // });
 // console.log("2");
+
+
 
 // Cpu Information
 // const os=require("os");
 // console.log(os.cpus().length);
+
 
 // fs.appendFile("./Notes.txt", '$(Date.now()} Hey There! \n ');
 // fs.cpSync("./example.txt", "./example_copy.txt");
@@ -66,21 +77,34 @@ console.log("first")
 
 
 
-console.log("first")
+// console.log("first")
 
-const read = (err, data)=>{
-    if(err){
-        throw err;
-    }
-    console.log(data)
-}
+// const read = (err, data)=>{
+//     if(err){
+//         throw err;
+//     }
+//     console.log(data)
+// }
 
 // const data = fs.readFileSync("./unknown.txt","utf-8");
 // console.log(data)
 
 
-fs.readFile("./unknown.txt", "utf-8", read)
+// fs.readFile("./unknown.txt", "utf-8", read)
 
 
-console.log("end")
+// console.log("end")
+
+
+
+const path = require("path");
+const a = path.join(mainfolder,"a");
+const b = path.join(mainfolder, "b");
+const filepath = path.join(b, "hello.txt");
+
+//  fs.mkdirSync("./lec");
+// fs.mkdirSync("./lec/folder1");
+// fs.mkdirSync("./lec/folder2");
+
+// fs.writeFileSync( "./lec/folder1/file.txt", "welcome to GLA University");
 

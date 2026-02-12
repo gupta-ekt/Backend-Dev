@@ -54,9 +54,17 @@
 
 
 
-const path = require('path')
-console.log('file name', path.basename(__filename));
-console.log('folder name', path.dirname(__filename));
-console.log('Extension', path.extname(__filename));
-const fullPath= path.join(__dirname,"public","index.html");
-console.log("full path", fullPath);
+const path = require("path");
+
+const a = path.resolve(__dirname);
+const b = path.join(a, "file.json");
+
+fs.readFile(b,"utf-8", (err,data)=>{
+    if(err){
+        console.log("error in reading file",err);
+    }else{
+        const jsobject = JSON.parse(data);
+        console.log(jsobject);
+    }
+
+} )
