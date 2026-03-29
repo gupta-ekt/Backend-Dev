@@ -1,0 +1,7 @@
+4. Why MongoDB uses BSON instead of JSON
+
+MongoDB uses BSON (Binary JSON) because it is more efficient 
+for storage and processing. BSON supports additional data types 
+such as Date and Binary, which JSON does not. 
+It also allows faster encoding and decoding,
+ making database operations more efficient compared to plain JSON.

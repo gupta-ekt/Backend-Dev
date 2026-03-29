@@ -1,0 +1,12 @@
+2. CAP Theorem and why all three properties cannot be guaranteed
+
+The CAP theorem states that a distributed system can only guarantee two
+out of the following three properties:
+
+Consistency (C): All nodes have the same data at the same time
+Availability (A): Every request receives a response
+Partition Tolerance (P): The system continues to operate despite network failures
+
+In real-world distributed systems, network partitions are unavoidable. 
+When a partition occurs, the system must choose between consistency and 
+availability. Therefore, it is impossible to guarantee all three properties simultaneously.

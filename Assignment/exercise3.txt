@@ -1,0 +1,5 @@
+3. Three scenarios where MongoDB is preferred over relational databases
+
+Social media applications: Handle large volumes of unstructured data like posts, comments, and media files.
+Real-time analytics: Requires fast data insertion and processing of large datasets.
+Content management systems: Flexible schema allows easy modification of content structure without affecting existing data.

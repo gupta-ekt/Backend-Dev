@@ -1,0 +1,11 @@
+1. Key differences between SQL and NoSQL databases with examples
+
+SQL databases are relational databases that store data in structured tables with predefined schemas. They follow ACID properties, ensuring strong consistency and reliability. Examples include MySQL and PostgreSQL.
+
+NoSQL databases are non-relational and store data in flexible formats such as documents, key-value pairs, or graphs. They are designed for scalability and high performance. Examples include MongoDB and Cassandra.
+
+Key differences:
+
+SQL uses structured schema; NoSQL uses flexible schema
+SQL ensures strong consistency; NoSQL prioritizes scalability and availability
+SQL is best for transactional systems; NoSQL is best for large-scale, dynamic data
