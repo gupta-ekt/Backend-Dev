@@ -1,0 +1,10 @@
+Pagination is implemented using skip() and limit() methods.
+
+Example:
+
+const page = 2;
+const limit = 5;
+
+Model.find()
+  .skip((page - 1) * limit)
+  .limit(limit)

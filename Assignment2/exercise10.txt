@@ -1,0 +1,10 @@
+5. When to use embedding vs referencing in MongoDB schema design
+
+Embedding:
+Store related data in a single document.
+Use when data is closely related and frequently accessed together.
+Improves performance by reducing queries.
+Referencing:
+Store data in separate collections and link using IDs.
+Use when data is large, frequently updated, or shared across multiple documents.
+Helps avoid duplication and improves scalability.

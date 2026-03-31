@@ -1,0 +1,10 @@
+2. Difference between findOneAndUpdate() and updateOne()
+
+findOneAndUpdate():
+Finds a document and updates it in a single operation.
+Can return the updated document.
+Useful when you need the modified result immediately.
+updateOne():
+Updates the first matching document.
+Returns only the status/result of the operation, not the updated document.
+Slightly faster when you don’t need the updated data.

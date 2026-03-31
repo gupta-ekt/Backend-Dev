@@ -1,0 +1,6 @@
+3. Purpose of middleware in Mongoose
+
+Middleware in Mongoose allows you to run functions before 
+or after certain database operations such as save, update,
+ or delete. It is used for tasks like data validation, logging, 
+ hashing passwords, or modifying data automatically.
