@@ -1,4 +1,0 @@
-db.students.find({
-  GPA: { $gt: 3.5 },
-  course: "CS101"
-})
