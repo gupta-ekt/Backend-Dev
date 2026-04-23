@@ -1,0 +1,11 @@
+{
+  "name": "transaction-system",
+  "env": {
+    "NODE_ENV": {
+      "value": "staging"
+    },
+    "DB_URI": {
+      "required": true
+    }
+  }
+}
